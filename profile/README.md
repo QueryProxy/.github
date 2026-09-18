@@ -70,7 +70,6 @@ Open <http://localhost:7432> and log in. One container runs the whole stack; one
 | Project | Description | Status |
 |---------|-------------|--------|
 | [**QueryProxy**](https://github.com/QueryProxy/QueryProxy) | The portal itself: a single Laravel monolith with the Query Studio, RBAC and team isolation, the connection vault, the approval workflow, ChatOps, async execution, dynamic masking and the audit log. | **Pre-release — v0.1.3** |
-| [**.github**](https://github.com/QueryProxy/.github) | This repository: organization profile and the community health defaults (contributing, security, support, issue and PR templates) that apply to every repository here. | Maintained |
 
 ---
 
@@ -102,3 +101,7 @@ Open <http://localhost:7432> and log in. One container runs the whole stack; one
 ---
 
 > Stop issuing credentials you will regret. Let the query be the thing you approve.
+
+---
+
+This project is developed by [Muhammet Şafak](https://www.muhammetsafak.com.tr/en/) under the tignex.com umbrella.

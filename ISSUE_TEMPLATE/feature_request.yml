@@ -1,0 +1,115 @@
+name: Feature request
+description: Propose a new feature or enhancement.
+title: "[feat]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest an improvement.
+
+        Before submitting:
+        - Search [open and closed issues](../issues?q=is%3Aissue) to see if it has been discussed.
+        - Check the [deliberate non-goals](https://github.com/QueryProxy/.github/blob/main/GOVERNANCE.md#deliberate-non-goals) — a hosted version, replacing network-level access control, acting as an analytics gateway, and requiring an external service in a default install are settled decisions. Proposing one is allowed; just name the trade-off up front.
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: |
+        What is hard or impossible today? What problem are you trying to solve?
+        Lead with the **why**, not the **what**.
+      placeholder: |
+        Our DBAs approve the same three read queries every week, and each one still...
+        Currently this is hard because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: |
+        How could this work? Even a rough sketch is helpful. If it changes a screen,
+        a configuration value or the approval flow, describe the new behavior concretely.
+      placeholder: |
+        A DBA could pre-approve a parameterized template so that...
+        The developer would then see...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: |
+        Other ways the same problem could be solved (including "do nothing" and
+        "solve it outside QueryProxy"). What are the trade-offs of each?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope of impact
+      options:
+        - Query Studio / SQL editor
+        - SQL guards and statement inspection
+        - Approval workflow and policies
+        - Chat integrations (Slack / Teams)
+        - Execution, queue and performance
+        - Data masking
+        - Results, exports and retention
+        - Audit log and compliance evidence
+        - RBAC, teams, authentication and SSO
+        - Connections and supported database engines
+        - Installation, deployment and operations
+        - API / CLI / automation
+        - Documentation
+        - Other (explain in motivation)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: security_posture
+    attributes:
+      label: Does this change the security posture?
+      description: Anything that widens what a role can do, relaxes a guard, or moves data to a new place counts.
+      options:
+        - "No — it does not change what anyone can do or where data goes"
+        - "Yes — it widens what some role can do"
+        - "Yes — it relaxes or bypasses a guard in some situation"
+        - "Yes — it moves query text or results somewhere new"
+        - "Not sure"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: How important is this for you?
+      options:
+        - Critical — we cannot adopt QueryProxy without this
+        - High — significantly improves our workflow
+        - Medium — nice to have
+        - Low — minor polish
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Links, screenshots, references to prior art, related issues, how other tools solve it.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Acknowledgments
+      options:
+        - label: I have searched existing issues to avoid duplicates.
+          required: true
+        - label: I understand this is a maintainer-driven project and there is no guarantee my request will be implemented.
+          required: true

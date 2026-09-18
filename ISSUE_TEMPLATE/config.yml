@@ -1,0 +1,17 @@
+# Issue template chooser configuration
+# Docs: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+
+blank_issues_enabled: false
+
+contact_links:
+  - name: Documentation
+    url: https://queryproxy.com/docs/
+    about: Installation, configuration, SQL guards, masking, approval workflow and the Slack / Teams integrations. Most setup questions are answered here.
+
+  - name: Security vulnerabilities
+    url: https://github.com/QueryProxy/.github/blob/main/SECURITY.md
+    about: Do not file public issues for guard bypasses, masking leaks or authorization holes. Follow the private reporting steps in SECURITY.md.
+
+  - name: Questions and setup help
+    url: https://github.com/QueryProxy/.github/blob/main/SUPPORT.md
+    about: Where to ask "how do I...?" questions and what to include so they can be answered quickly.

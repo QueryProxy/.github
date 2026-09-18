@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# CommitBrief local config and cache
+.commitbrief/

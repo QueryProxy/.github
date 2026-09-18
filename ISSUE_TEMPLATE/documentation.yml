@@ -1,0 +1,55 @@
+name: Documentation issue
+description: Something in the documentation is wrong, missing, or confusing.
+title: "[docs]: "
+labels: ["documentation", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Documentation gaps are real bugs — a security tool nobody can configure correctly is not secure. Thanks for reporting one.
+
+  - type: input
+    id: location
+    attributes:
+      label: Where
+      description: The page URL, or the file path in the repository.
+      placeholder: "https://queryproxy.com/docs/data-masking/"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem is it?
+      options:
+        - Wrong — the documented behavior does not match what the software does
+        - Missing — something is not documented at all
+        - Confusing — documented, but not clearly enough to follow
+        - Outdated — was correct in an earlier version
+        - Broken link, typo or formatting
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Quote the passage if there is one, and say what happened when you followed it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix
+      description: What should it say instead? A rough sentence is plenty — you do not need to write the final copy.
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Version you were using
+      placeholder: "v0.1.3"
+    validations:
+      required: false

@@ -12,6 +12,8 @@ QueryProxy is a **self-hosted database access control and query approval portal*
 
 [![Latest release](https://img.shields.io/github/v/release/QueryProxy/QueryProxy?sort=semver&label=latest&color=2ea043)](https://github.com/QueryProxy/QueryProxy/releases/latest) [![License](https://img.shields.io/badge/license-AGPL--3.0--or--later-blue)](https://github.com/QueryProxy/QueryProxy/blob/main/LICENSE) [![Docker image](https://img.shields.io/badge/docker-queryproxy%2Fqueryproxy-2496ed)](https://hub.docker.com/r/queryproxy/queryproxy) [![Databases](https://img.shields.io/badge/databases-PostgreSQL%20%7C%20MySQL%20%7C%20MariaDB%20%7C%20SQL%20Server%20%7C%20SQLite-informational)](https://queryproxy.com/docs/)
 
+[![Designed & Maintained with Tan](https://www.muhammetsafak.com.tr/badges/designed-maintained-with-tan.svg)](https://www.muhammetsafak.com.tr/en/tan/)
+
 <!-- Duyuru bloğu: her yeni release'de sürüm + öne çıkan değişiklik güncellenir. -->
 > [!NOTE]
 > 🚀 **`v0.1.3` is out.** One container is now a complete instance — nginx, php-fpm, the queue worker and the scheduler run together, so `docker run -p 7432:7432` gives you a working portal with a single volume. Images ship for `linux/amd64` and `linux/arm64` on both Docker Hub (`queryproxy/queryproxy`) and GHCR (`ghcr.io/queryproxy/queryproxy`). → [Release notes](https://github.com/QueryProxy/QueryProxy/releases/latest)

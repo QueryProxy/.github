@@ -106,4 +106,4 @@ Open <http://localhost:7432> and log in. One container runs the whole stack; one
 
 ---
 
-This project is developed by [Muhammet Şafak](https://www.muhammetsafak.com.tr/en/) under the [tignex.com](https://tignex.com) umbrella.
+This project is developed by [Muhammet Şafak](https://muhammetsafak.com/) under the [tignex.com](https://tignex.com) umbrella.

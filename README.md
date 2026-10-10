@@ -17,7 +17,7 @@ This repository holds the community health files and templates that apply to **e
 | [`FUNDING.yml`](FUNDING.yml) | GitHub Sponsors configuration. |
 | [`ISSUE_TEMPLATE/`](ISSUE_TEMPLATE/) | Default issue templates (bug report, feature request, documentation) and the chooser config. |
 | [`PULL_REQUEST_TEMPLATE.md`](PULL_REQUEST_TEMPLATE.md) | Default pull request template. |
-| [`LICENSE`](LICENSE) | AGPL-3.0-or-later, the license these files are published under. |
+| [`LICENSE`](LICENSE) | AGPL-3.0-only, the license these files are published under. |
 
 ## How overrides work
 
@@ -43,7 +43,7 @@ Documentation links point at <https://queryproxy.com/docs/>; check them after a 
 
 ## License
 
-The content of this repository is released under the **AGPL-3.0-or-later** license, matching the rest of the QueryProxy organization.
+The content of this repository is released under the **AGPL-3.0-only** license, matching the rest of the QueryProxy organization.
 
 ## Maintainers
 

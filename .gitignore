@@ -1,5 +1,26 @@
-# macOS
+# --- Repository standard (STANDARD.md §13) ---------------------------------
+# No language template applies: this repository holds community health files only.
+
+# Single source of truth lives in the separate <repo>.ssot repository (§14)
+/.ssot/
+
+# Environment files: never commit; document variables in .env.example
+.env
+.env.*
+!.env.example
+
+# OS files
 .DS_Store
+
+# Editors and IDEs (shared VS Code settings stay versioned)
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# --- Repository-specific ----------------------------------------------------
 
 # CommitBrief local config and cache
 .commitbrief/

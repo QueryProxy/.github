@@ -37,7 +37,7 @@ Releases are cut by the maintainer, tagged `vX.Y.Z`, and documented in each proj
 
 ## Licensing
 
-All projects are licensed **AGPL-3.0-or-later**, on an inbound = outbound basis: contributions are licensed under the same terms as the repository, with no CLA and no DCO sign-off. See [CONTRIBUTING.md](CONTRIBUTING.md).
+All projects are licensed **AGPL-3.0-only**, on an inbound = outbound basis: contributions are licensed under the same terms as the repository, with no CLA and no DCO sign-off. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Relicensing would require the agreement of every copyright holder. There is no contributor agreement that would allow the maintainer to relicense contributions unilaterally, and that is intentional.
 

@@ -79,6 +79,6 @@
 ## Checklist
 
 - [ ] I have read the [Contributing guide](https://github.com/QueryProxy/.github/blob/main/CONTRIBUTING.md).
-- [ ] My contribution is licensed under AGPL-3.0-or-later (inbound = outbound).
+- [ ] My contribution is licensed under AGPL-3.0-only (inbound = outbound).
 - [ ] `CHANGELOG.md` is updated under *Unreleased* if this change is user-visible.
 - [ ] Documentation (README, `queryproxy.com/docs/`) is updated if user-visible behavior changed.

@@ -11,7 +11,7 @@ Thanks for thinking about contributing. This document is the org-wide default; i
 
 ## How we accept contributions
 
-QueryProxy uses the **inbound = outbound** licensing model. By opening a pull request you agree that your contribution is licensed to the project under the **AGPL-3.0-or-later** license that governs the repository. There is no separate Contributor License Agreement (CLA) and no Developer Certificate of Origin (DCO) sign-off is required.
+QueryProxy uses the **inbound = outbound** licensing model. By opening a pull request you agree that your contribution is licensed to the project under the **AGPL-3.0-only** license that governs the repository. There is no separate Contributor License Agreement (CLA) and no Developer Certificate of Origin (DCO) sign-off is required.
 
 If your employer or another party may claim rights over your contribution, please confirm with them before submitting.
 
@@ -32,6 +32,12 @@ Before opening an issue:
 - Write the PR description with a **summary** and a **test plan**. The PR template captures both.
 - Reference related issues with `Fixes #N` or `Refs #N`.
 - Run the project's test and lint commands locally before pushing. CI will run the same checks.
+- This repository's CI runs two checks; run them locally before opening a pull request:
+
+  ```bash
+  npx --yes markdownlint-cli2 "**/*.md" "#node_modules"
+  lychee --no-progress './**/*.md'
+  ```
 - Update the `CHANGELOG.md` entry under *Unreleased* when the change is user-visible.
 
 ## Security-sensitive changes

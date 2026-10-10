@@ -43,7 +43,7 @@ Relicensing would require the agreement of every copyright holder. There is no c
 
 ## Code of conduct
 
-Participation in every QueryProxy space is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). The maintainer is responsible for enforcement; reports go to **info@queryproxy.com**.
+Participation in every QueryProxy space is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). The maintainer is responsible for enforcement; reports go to **info@muhammetsafak.com**.
 
 ## Changing this document
 

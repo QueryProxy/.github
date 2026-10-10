@@ -1,0 +1,20 @@
+# markdownlint-cli2 configuration for the lint job in .github/workflows/ci.yml.
+config:
+  # Line length: the files are written as one paragraph per line, and
+  # CODE_OF_CONDUCT.md is the verbatim Contributor Covenant text.
+  MD013: false
+  # First-line heading: PULL_REQUEST_TEMPLATE.md is rendered into the PR body
+  # and starts with "##" sections by design.
+  MD041: false
+  # Table column style: existing tables mix spacing between the delimiter row
+  # (no padding) and header/body rows (padded); restyling them is cosmetic churn.
+  MD060: false
+  # Bare URLs: contact addresses are written as bold plain emails, including
+  # in the verbatim Contributor Covenant text.
+  MD034: false
+  # Blank line inside blockquote: profile/README.md places two separate GitHub
+  # alert blocks ([!NOTE], [!IMPORTANT]) next to each other.
+  MD028: false
+  # Lists surrounded by blank lines: SUPPORT.md introduces lists directly
+  # under a lead-in line ("Examples:").
+  MD032: false

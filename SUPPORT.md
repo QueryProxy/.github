@@ -50,11 +50,11 @@ Some non-goals are deliberate — there is no hosted version, QueryProxy is not 
 
 ## Security vulnerabilities
 
-Do **not** open a public issue. Follow [SECURITY.md](SECURITY.md) and email **info@queryproxy.com**. Guard bypasses, masking leaks and authorization holes belong in that channel, not in the tracker.
+Do **not** open a public issue. Follow [SECURITY.md](SECURITY.md) and email **info@muhammetsafak.com**. Guard bypasses, masking leaks and authorization holes belong in that channel, not in the tracker.
 
 ## Direct contact
 
-For anything that does not fit the above — commercial use, integrations, sponsorship questions, anything off-channel — email **info@queryproxy.com**. Please keep public technical questions in public channels so others can benefit from the answer.
+For anything that does not fit the above — commercial use, integrations, sponsorship questions, anything off-channel — email **info@muhammetsafak.com**. Please keep public technical questions in public channels so others can benefit from the answer.
 
 ## What we cannot help with
 

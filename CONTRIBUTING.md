@@ -60,6 +60,6 @@ The product scope is defined by the PRD and the ADRs in the SSOT repository, and
 
 ## Questions
 
-Open an issue in the relevant repository with a `question:` prefix, or email **info@queryproxy.com** for anything that needs to be off-channel.
+Open an issue in the relevant repository with a `question:` prefix, or email **info@muhammetsafak.com** for anything that needs to be off-channel.
 
 Thank you for helping us improve QueryProxy.

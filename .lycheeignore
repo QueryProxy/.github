@@ -1,0 +1,2 @@
+# Local addresses used in setup examples; not reachable from CI.
+^https?://(localhost|127\.0\.0\.1)

@@ -98,7 +98,7 @@ Open <http://localhost:7432> and log in. One container runs the whole stack; one
 
 - **Bug reports and feature requests:** open an issue in the [relevant repository](https://github.com/QueryProxy/QueryProxy/issues).
 - **Questions and setup help:** start with the [documentation](https://queryproxy.com/docs/); if it does not answer, open an issue prefixed with `question:`.
-- **Security:** do **not** open a public issue — see [SECURITY.md](https://github.com/QueryProxy/.github/blob/main/SECURITY.md) or email **info@queryproxy.com**.
+- **Security:** do **not** open a public issue — see [SECURITY.md](https://github.com/QueryProxy/.github/blob/main/SECURITY.md) or email **info@muhammetsafak.com**.
 
 ---
 

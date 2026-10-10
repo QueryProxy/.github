@@ -32,7 +32,7 @@ Before opening an issue:
 - Write the PR description with a **summary** and a **test plan**. The PR template captures both.
 - Reference related issues with `Fixes #N` or `Refs #N`.
 - Run the project's test and lint commands locally before pushing. CI will run the same checks.
-- This repository's CI runs two checks; run them locally before opening a pull request:
+- Pull requests to `QueryProxy/.github` itself run two CI checks; run them locally before opening one:
 
   ```bash
   npx --yes markdownlint-cli2 "**/*.md" "#node_modules"

@@ -18,5 +18,6 @@ This repository holds organization defaults and is not versioned.
 
 - The security contact address is now `info@muhammetsafak.com`; the same address replaces the previous contact address in the code of conduct, contributing, governance, support and profile documents.
 - `SECURITY.md` now follows the repository standard: GitHub Private Vulnerability Reporting is the primary channel, email is the fallback, and the response commitment is 7 days.
+- The organization license is stated as `AGPL-3.0-only` (previously `AGPL-3.0-or-later`).
 
 [Unreleased]: https://github.com/QueryProxy/.github/commits/main

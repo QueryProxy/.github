@@ -1,0 +1,5 @@
+# GitHub intermittently answers blob pages with 503 (and 429 under load) when
+# requests come from Actions runners. Those are availability errors, not broken
+# links, so accept them; a missing page still fails with 404.
+accept = ["100..=103", "200..=299", "429", "503"]
+max_retries = 3

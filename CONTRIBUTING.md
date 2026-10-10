@@ -38,6 +38,7 @@ Before opening an issue:
   npx --yes markdownlint-cli2 "**/*.md" "#node_modules"
   lychee --no-progress './**/*.md'
   ```
+
 - Update the `CHANGELOG.md` entry under *Unreleased* when the change is user-visible.
 
 ## Security-sensitive changes

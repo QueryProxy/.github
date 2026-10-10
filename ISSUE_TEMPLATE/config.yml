@@ -9,8 +9,8 @@ contact_links:
     about: Installation, configuration, SQL guards, masking, approval workflow and the Slack / Teams integrations. Most setup questions are answered here.
 
   - name: Security vulnerabilities
-    url: https://github.com/QueryProxy/.github/blob/main/SECURITY.md
-    about: Do not file public issues for guard bypasses, masking leaks or authorization holes. Follow the private reporting steps in SECURITY.md.
+    url: https://github.com/QueryProxy/QueryProxy/security/advisories/new
+    about: Do not file public issues for guard bypasses, masking leaks or authorization holes. Report them privately through GitHub private vulnerability reporting.
 
   - name: Questions and setup help
     url: https://github.com/QueryProxy/.github/blob/main/SUPPORT.md

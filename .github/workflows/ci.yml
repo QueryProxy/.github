@@ -2,6 +2,8 @@
 # Actions are pinned to commit SHAs rather than mutable tags. Dependabot
 # (github-actions ecosystem) keeps the SHAs current; when bumping one,
 # re-resolve the SHA — never edit the version comment alone.
+# Tool versions (markdownlint-cli2, lychee) are pinned too; Dependabot does not
+# track them, so bump them by hand.
 name: CI
 
 on:
@@ -32,7 +34,7 @@ jobs:
           node-version: '22'
       - name: Lint
         run: |
-          npx --yes markdownlint-cli2 "**/*.md" "#node_modules"
+          npx --yes markdownlint-cli2@0.23.3 "**/*.md" "#node_modules"
 
   test:
     name: test
@@ -46,7 +48,7 @@ jobs:
       - name: Install lychee
         uses: taiki-e/install-action@ab6895351a88b908e96a4697860d4ffea5e57dbe # v2.87.27
         with:
-          tool: lychee
+          tool: lychee@0.24.2
       - name: Test
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
